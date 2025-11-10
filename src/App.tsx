@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { AdBox } from "./components/AdBox";
 
 type Part = "chest" | "back" | "legs" | "shoulder" | "arm" | "core";
 type Level = "beginner" | "intermediate";
