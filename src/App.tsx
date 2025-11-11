@@ -101,9 +101,10 @@ function App() {
 
   return (
     <div
+      className="fitseed-layout"
       style={{
         display: "grid",
-        gridTemplateColumns: "1fr 240px", // 本体＋広告
+        gridTemplateColumns: "1fr 240px",
         gap: "24px",
       }}
     >

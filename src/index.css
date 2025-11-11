@@ -63,3 +63,22 @@ button:focus-visible {
   max-width: 700px;
   padding: 40px 16px;
 }
+
+/* 全体の最大幅はそのまま */
+#root {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 16px;
+}
+
+/* スマホのときは1カラムに */
+@media (max-width: 768px) {
+  .fitseed-layout {
+    display: block !important;
+  }
+
+  .fitseed-side {
+    margin-top: 20px;
+  }
+}
